@@ -11,7 +11,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 
 FoodBoost
 Cofano Containers
-# <a id="reflection">Personal Reflection</a>
+# <a id="reflection"></a>
 
 <h4>Datacamp Courses</h4>
 
