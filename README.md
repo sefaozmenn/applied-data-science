@@ -1,4 +1,4 @@
-#Portfolio Minor Applied Data Science
+Portfolio Minor Applied Data Science
 
 Student name: Sefa Özmen
 
