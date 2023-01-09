@@ -11,7 +11,8 @@
 
 
 <details>
-<summary>[Datacamp Courses]</summary>
+<summary>Click to toggle contents of `code`</summary>
+  
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
 - [Intermediate Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Intermediate%20Python.pdf)
 - [Python Data Science Toolbox (Part 1)](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Python%20Data%20Science%20Toolbox%20(Part%201).pdf)
@@ -28,6 +29,7 @@
 - [Manipulating Timeseries Data Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Manipulating%20Time%20Series%20Data%20in%20Python.pdf)
 - [Joining Data with pandas](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Joining%20Data%20with%20pandas.pdf)
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
+  
 </details>
 
 [Personal Reflection]()
