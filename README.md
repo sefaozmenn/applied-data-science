@@ -11,7 +11,7 @@
 
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Datacamp Courses</summary>
   
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
 - [Intermediate Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Intermediate%20Python.pdf)
