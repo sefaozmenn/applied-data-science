@@ -26,6 +26,6 @@
 - [Joining Data with pandas](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Joining%20Data%20with%20pandas.pdf)
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
 
-# Personal Reflection
-# Personal Learning Objectives
-# Evaluation of the group project
+#Personal Reflection
+#Personal Learning Objectives
+#Evaluation of the group project
