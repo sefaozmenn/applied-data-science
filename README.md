@@ -9,9 +9,9 @@
 
 # <a id="reflection"></a>
 
-[Datacamp Courses](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp)
+
 <details>
-<summary>Click to see all courses</summary>
+<summary>[Datacamp Courses](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp)</summary>
 
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
 - [Intermediate Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Intermediate%20Python.pdf)
