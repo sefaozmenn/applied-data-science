@@ -69,4 +69,4 @@
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
   
 
-# Reflection
+# Personal Reflection
