@@ -7,3 +7,4 @@
 
 <h3>This document describes my progress, contributions and reflection of the Applied Data Science 22-23 Minor.</h3>
 
+<h4>Datacamp Courses</h4>
