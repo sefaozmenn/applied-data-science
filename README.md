@@ -32,7 +32,7 @@
   
 </details>
 
-- [Personal Reflection](#"reflection")
+[Personal Reflection](#"reflection")
 
 [Personal Learning Objectives]()
 
