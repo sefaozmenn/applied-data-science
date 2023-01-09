@@ -32,7 +32,8 @@
   
 </details>
 
-[Personal Reflection]()
+- [Personal Reflection](#"reflection")
+
 
 In het begin van de minor werd er eerst een introductie lesgegeven over Data Science en de inhoud van de minor Applied Data Science. In deze les moest iedereen getallen geven om de groepen in te delen. Na dat iedereen random getallen had doorgegeven heeft meneer Vuurens een indeling weten te maken door een algoritme. Toen de groepen bekend werden was het even navragen om je groepsgenoten te vinden. Want deze minor wordt ook gevolgd door studenten van andere scholen.
 Na het kennismaken met de groep hebben we kort overlegd over ieders sterke en zwakke punten. Dit hebben we vervolgens met elkaar besproken en doorgenomen. We hebben ook kort over onze hobby’s gehad. Dit zorgde ervoor om elkaar beter te leren kennen.
@@ -42,3 +43,5 @@ Voor het container project heb ik mezelf vooral gericht op Reinforcement Learnin
 [Personal Learning Objectives]()
 
 [Evaluation of the group project]()
+
+# <a id="reflection"></a>Personal Reflection
