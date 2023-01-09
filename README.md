@@ -30,5 +30,5 @@
 
 
 [Personal Reflection]()
-[Personal Learning Objectives]
-[Evaluation of the group project]
+[Personal Learning Objectives]()
+[Evaluation of the group project]()
