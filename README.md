@@ -9,7 +9,7 @@
 
 <h4>Datacamp Courses</h4>
 
-- [Introduction to Python]()
+- [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
 - [Intermediate Python]
 - [Python Data Science Toolbox (Part 1)]
 - [Python Data Science Toolbox (Part 2)]
