@@ -11,8 +11,7 @@
 
 
 <details>
-<summary>[Datacamp Courses](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp)</summary>
-
+<summary>[Datacamp Courses]</summary>
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
 - [Intermediate Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Intermediate%20Python.pdf)
 - [Python Data Science Toolbox (Part 1)](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Python%20Data%20Science%20Toolbox%20(Part%201).pdf)
