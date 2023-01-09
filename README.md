@@ -11,7 +11,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 
 FoodBoost
 Cofano Containers
-# <a id="Personal Reflection">Personal Reflection</a>
+# <a id="reflection">Personal Reflection</a>
 
 <h4>Datacamp Courses</h4>
 
@@ -32,6 +32,6 @@ Cofano Containers
 - [Joining Data with pandas](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Joining%20Data%20with%20pandas.pdf)
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
 
-- [Personal Reflection](#'Reflection')
+- [Personal Reflection](#'reflection')
 #Personal Learning Objectives
 #Evaluation of the group project
