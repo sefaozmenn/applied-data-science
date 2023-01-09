@@ -7,9 +7,6 @@
 
 <h4>Dit repository beschrijft mijn voortgang, bijdragen en reflectie van de Minor Applied Data Science 22-23</h4>
 
-# <a id="reflection"></a>
-
-
 <details>
 <summary>Datacamp Courses</summary>
   
@@ -32,7 +29,7 @@
   
 </details>
 
-[Personal Reflection](#"reflection")
+[Personal Reflection](#Reflection)
 
 [Personal Learning Objectives]()
 
@@ -72,4 +69,4 @@
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
   
 
-# Personal Reflection
+# Reflection
