@@ -7,6 +7,11 @@
 
 <h3>This document describes my progress, contributions and reflection of the Applied Data Science 22-23 Minor.</h3>
 
+In this portofolio, I will show the progress I made during the minor Applied Data Science. During this minor I worked on two different projects:
+
+FoodBoost
+Cofano Containers
+
 <h4>Datacamp Courses</h4>
 
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
@@ -26,6 +31,6 @@
 - [Joining Data with pandas](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Joining%20Data%20with%20pandas.pdf)
 - [Time Series Analysis in Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Time%20Series%20Analysis%20in%20Python.pdf)
 
-#Personal Reflection
+# <a id="Personal Reflection"></a>Personal Reflection
 #Personal Learning Objectives
 #Evaluation of the group project
