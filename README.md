@@ -7,10 +7,6 @@
 
 <h3>This document describes my progress, contributions and reflection of the Applied Data Science 22-23 Minor.</h3>
 
-In this portofolio, I will show the progress I made during the minor Applied Data Science. During this minor I worked on two different projects:
-
-FoodBoost
-Cofano Containers
 # <a id="reflection"></a>
 
 <h4>Datacamp Courses</h4>
