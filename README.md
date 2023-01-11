@@ -1,4 +1,3 @@
-
 <h1>Portfolio Minor Applied Data Science</h1>
 
 <h4>Student naam: Sefa Özmen</h4>
@@ -6,6 +5,7 @@
 <h4>Student nummer: 19066791</h4>
 
 <h4>Dit repository beschrijft mijn voortgang, bijdragen en reflectie van de Minor Applied Data Science 22-23</h4>
+
 
 <h2>Datacamp + Reflection and evaluation</h2>
 
@@ -23,31 +23,29 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Datacamp](#Datacamp)
-- [Personal Reflection](#Personal-Reflection)
-- [Personal Learning Objectives](#Personal-Learning-Objectives)
-- [Evaluation of the group project](#Evaluation-of-the-group-project)
+- [Selecting a model](#Selecting)
+- [Configuring a model](#Configuring)
+- [Training a model](#Training)
+- [Evaluating a model](#Evaluating)
+- [Visualizing the outcome of a model](#Visualizing)
 
 <h2>Domain Knowledge</h2>
 
-- [Datacamp](#Datacamp)
-- [Personal Reflection](#Personal-Reflection)
-- [Personal Learning Objectives](#Personal-Learning-Objectives)
-- [Evaluation of the group project](#Evaluation-of-the-group-project)
+- [Introduction of the subject field](#Introduction)
+- [Literature Research](#Literature)
+- [Explanataion of Terminology, Jargon and Definitions](#Explanataion)
 
 <h2>Data preprocessing</h2>
 
-- [Datacamp](#Datacamp)
-- [Personal Reflection](#Personal-Reflection)
-- [Personal Learning Objectives](#Personal-Learning-Objectives)
-- [Evaluation of the group project](#Evaluation-of-the-group-project)
+- [Data Preprocessing](#Data-Preprocessing)
+- [Exploring and explanation of the dataset](#Exploring-and-explanation-of-the-dataset)
+- [Exploring and explanation of existing code](#Exploring-and-explanation-of-existing-code)
+- [Visualization](#Visualization)
 
 <h2>Communication</h2>
 
-- [Datacamp](#Datacamp)
-- [Personal Reflection](#Personal-Reflection)
-- [Personal Learning Objectives](#Personal-Learning-Objectives)
-- [Evaluation of the group project](#Evaluation-of-the-group-project)
+- [Presentations](#Presentations)
+- [Paper](#Paper)
 
 # Datacamp
 
