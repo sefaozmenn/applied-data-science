@@ -23,10 +23,10 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Selecting a model](#Selecting)
-- [Configuring a model](#Configuring)
-- [Training a model](#Training)
-- [Evaluating a model](#Evaluating)
+- [Selecting a model](#Selecting-a-model)
+- [Configuring a model](#Configuring-a-model)
+- [Training a model](#Training-a-model)
+- [Evaluating a model](#Evaluating-a-model)
 - [Visualizing the outcome of a model](#Visualizing)
 
 <h2>Domain Knowledge</h2>
