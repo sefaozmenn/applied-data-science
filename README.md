@@ -83,3 +83,18 @@
 # Training a model
 # Evaluating a model
 # Visualizing the outcome of a model
+
+
+# Introduction of the subject field
+# Literature Research
+# Explanataion of Terminology, Jargon and Definitions
+
+
+# Data Preprocessing
+# Exploring and explanation of the dataset
+# Exploring and explanation of existing code
+# Visualization
+
+
+# Presentations
+# Paper
