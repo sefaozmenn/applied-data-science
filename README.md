@@ -47,6 +47,7 @@
 - [Presentations](#Presentations)
 - [Paper](#Paper)
 
+
 # Datacamp
 
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
