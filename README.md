@@ -72,3 +72,23 @@
 # Personal Learning Objectives
 
 # Evaluation of the group project
+
+
+# Task Definition
+
+# Evaluation
+
+# Conclusions
+
+# Planning
+
+
+# Personal Learning Objectives
+
+# Evaluation of the group project
+
+# Personal Reflection
+
+# Personal Learning Objectives
+
+# Evaluation of the group project
