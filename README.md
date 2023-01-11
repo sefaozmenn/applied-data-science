@@ -7,12 +7,10 @@
 
 <h4>Dit repository beschrijft mijn voortgang, bijdragen en reflectie van de Minor Applied Data Science 22-23</h4>
 
-[Datacamp](#Datacamp)
-[Personal Reflection](#Personal-Reflection)
-
-[Personal Learning Objectives](#Personal-Learning-Objectives)
-
-[Evaluation of the group project](#Evaluation-of-the-group-project)
+- [Datacamp](#Datacamp)
+- [Personal Reflection](#Personal-Reflection)
+- [Personal Learning Objectives](#Personal-Learning-Objectives)
+- [Evaluation of the group project](#Evaluation-of-the-group-project)
 
 # Datacamp
 
