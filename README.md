@@ -14,6 +14,41 @@
 - [Personal Learning Objectives](#Personal-Learning-Objectives)
 - [Evaluation of the group project](#Evaluation-of-the-group-project)
 
+<h2>Research project</h2>
+
+- [Task Definition](#Task-Definition)
+- [Evaluation](#Evaluation)
+- [Conclusions](#Conclusions)
+- [Planning](#Planning)
+
+<h2>Predictive Analytics</h2>
+
+- [Datacamp](#Datacamp)
+- [Personal Reflection](#Personal-Reflection)
+- [Personal Learning Objectives](#Personal-Learning-Objectives)
+- [Evaluation of the group project](#Evaluation-of-the-group-project)
+
+<h2>Domain Knowledge</h2>
+
+- [Datacamp](#Datacamp)
+- [Personal Reflection](#Personal-Reflection)
+- [Personal Learning Objectives](#Personal-Learning-Objectives)
+- [Evaluation of the group project](#Evaluation-of-the-group-project)
+
+<h2>Data preprocessing</h2>
+
+- [Datacamp](#Datacamp)
+- [Personal Reflection](#Personal-Reflection)
+- [Personal Learning Objectives](#Personal-Learning-Objectives)
+- [Evaluation of the group project](#Evaluation-of-the-group-project)
+
+<h2>Communication</h2>
+
+- [Datacamp](#Datacamp)
+- [Personal Reflection](#Personal-Reflection)
+- [Personal Learning Objectives](#Personal-Learning-Objectives)
+- [Evaluation of the group project](#Evaluation-of-the-group-project)
+
 # Datacamp
 
 - [Introduction to Python](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
