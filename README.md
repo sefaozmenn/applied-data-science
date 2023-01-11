@@ -83,12 +83,8 @@
 # Planning
 
 
-# Personal Learning Objectives
-
-# Evaluation of the group project
-
-# Personal Reflection
-
-# Personal Learning Objectives
-
-# Evaluation of the group project
+# Selecting a model
+# Configuring a model
+# Training a model
+# Evaluating a model
+# Visualizing the outcome of a model
