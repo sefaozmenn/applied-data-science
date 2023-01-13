@@ -110,9 +110,9 @@ Omdat ik dus een achterstand had heb ik zelf niet evenveel gecodeerd als mijn an
 
 
 # Presentations
-- [Presentatie week 4](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
-- [Presentatie week 6](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/food%20project%20week%206.pptx)
-- [Presentatie week 8](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/container%20-%20week%208.pptx)
-- [Presentatie week 16](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/container%20-%20week%2016.pptx)
+- [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
+- [Presentatie week 6 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/food%20project%20week%206.pptx)
+- [Presentatie week 8 (Cofano)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/container%20-%20week%208.pptx)
+- [Presentatie week 16 (Cofano)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/container%20-%20week%2016.pptx)
 
 # Paper
