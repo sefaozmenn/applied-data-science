@@ -110,4 +110,9 @@ Omdat ik dus een achterstand had heb ik zelf niet evenveel gecodeerd als mijn an
 
 
 # Presentations
+- [Presentatie week 4](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
+- [Presentatie week 6](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Intermediate%20Python.pdf)
+- [Presentatie week 8](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Python%20Data%20Science%20Toolbox%20(Part%201).pdf)
+- [Presentatie week 16](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Python%20Data%20Science%20Toolbox%20(Part%202).pdf)
+
 # Paper
