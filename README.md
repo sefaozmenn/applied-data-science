@@ -33,7 +33,7 @@
 
 - [Introduction of the subject field](#Introduction-of-the-subject-field)
 - [Literature Research](#Literature-Research)
-- [Explanataion of Terminology, Jargon and Definitions](Explanataion-of-Terminology-Jargon-and-Definitions)
+- [Explanataion of Terminology, Jargon and Definitions](#Explanataion-of-Terminology-Jargon-and-Definitions)
 
 <h2>Data preprocessing</h2>
 
