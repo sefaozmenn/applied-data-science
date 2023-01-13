@@ -31,9 +31,9 @@
 
 <h2>Domain Knowledge</h2>
 
-- [Introduction of the subject field](#Introduction)
-- [Literature Research](#Literature)
-- [Explanataion of Terminology, Jargon and Definitions](#Explanataion)
+- [Introduction of the subject field](#Introduction-of-the-subject-field)
+- [Literature Research](#Literature-Research)
+- [Explanataion of Terminology, Jargon and Definitions](Explanataion-of-Terminology-Jargon-and-Definitions)
 
 <h2>Data preprocessing</h2>
 
