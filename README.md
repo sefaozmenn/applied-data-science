@@ -77,13 +77,21 @@ Voor het container project heb ik mezelf vooral gericht op Reinforcement Learnin
 **Situatie**
 
 We hadden dus met de groep gekozen om elk groepslid een eigen Reinforcement model te gaan maken met ieder zijn eigen methode. We hadden hiervoor gekozen zodat iedereen een Reinforcement model kon maken, trainen en begrijpen wat er gebeurt. Het allerbelangrijkste is dat iedereen er iets van leert binnen de groep. En natuurlijk dat iedereen een bijdrage levert aan het Cofano project. 
-Taak
+
+**Taak**
+
 Elk groepslid kreeg dus de opdracht om een Reinforcement model te gaan maken. Ik ging op Youtube opzoek naar tutorials over Reinforcement Learning. Na het rondbekijken van video’s heb ik uiteindelijk een goede video gevonden over een man genaamd Nicholas Renotte die in 3 uurtjes uitlegt hoe je een model maakt met Python in Jupyter Notebook.
-Actie
+
+**Actie**
+
 Ik heb de volle 3 uur durende tutorial op Youtube gekeken. Terwijl ik dit aan het doen was ik ook bezig om de opdracht ook zelf uit te voeren op onze Jupyter Notebook. Een paar keer kreeg ik foutmeldingen binnen Jupyter Notebook. Wat ik vervolgens deed was het zoeken naar antwoorden op mijn foutmeldingen binnen de reacties van deze Tutorial. Hier vond ik allemaal gepaste antwoorden zodanig om mij model weer werkend te krijgen. 
-Resultaat
+
+**Resultaat**
+
 Het resultaat van mijn acties is een model voor een cartpole model waarbij ik gebruik maak van de stablebaselines 3 library en de PPO-algoritme. Mijn model bereikt ook de maximum reward van 200 die ik als threshold heb neergezet.
-Reflectie
+
+**Reflectie**
+
 Ik ben heel blij dat ik deze tutorial heb gevolgd. Mede dankzij deze tutorial heb ik kennisgemaakt met Reinforcement Learning. Deze tutorial heeft mij kennis en ervaring opgeleverd. En natuurlijk ook ervoor gezorgd dat ik mijn groep waardevolle informatie kon geven over dit model. Wat ik nog wel zou willen doen is deze model te proberen in mijn eigen environment.
 
 
