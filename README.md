@@ -75,6 +75,7 @@ Elke groep moest net als ons als eerst beginnen met het Food boost project. In d
 Voor het container project heb ik mezelf vooral gericht op Reinforcement Learning. Omdat nog niemand kennis had met Reinforcement Learning hebben we ervoor gekozen dat iedereen zijn eigen model ging maken. Ik heb hiervoor kennis opgedaan op het internet. Dit deed ik met behulp van YouTube filmpjes te volgen en dit na te doen. Op deze manier heb ik nuttige kennis leveren aan mijn groepje zodat zij overtuigende keuzes konden maken tijdens het maken van het laatste model. 
 
 **Situatie**
+
 We hadden dus met de groep gekozen om elk groepslid een eigen Reinforcement model te gaan maken met ieder zijn eigen methode. We hadden hiervoor gekozen zodat iedereen een Reinforcement model kon maken, trainen en begrijpen wat er gebeurt. Het allerbelangrijkste is dat iedereen er iets van leert binnen de groep. En natuurlijk dat iedereen een bijdrage levert aan het Cofano project. 
 Taak
 Elk groepslid kreeg dus de opdracht om een Reinforcement model te gaan maken. Ik ging op Youtube opzoek naar tutorials over Reinforcement Learning. Na het rondbekijken van video’s heb ik uiteindelijk een goede video gevonden over een man genaamd Nicholas Renotte die in 3 uurtjes uitlegt hoe je een model maakt met Python in Jupyter Notebook.
