@@ -168,6 +168,13 @@ Met welke methode kunnen we een wekelijkse lunch- en dineraanbeveling maken, rek
 4.	Welke methode kan gebruikt worden om een voedingsschema te maken met zoveel mogelijk variatie?
 
 # Evaluation
+
+Ik denk dat we al een redelijk model hebben gemaakt die een goed basis vormt voor mensen die een notenallergie hebben. Als iemand dit verder zal gaan met dit project zijn er nog zeker veel manieren/ideeën waaraan het model verbeterd kan worden.
+
+Het is natuurlijk ook beter als je dit model uitwerkt met andere soorten allergieën. Nu is het alleen bedoeld voor mensen die een notenallergie hebben, omdat we alle recepten met ingrediënten waar noten inzitten uitgefilterd hebben. Je kan het bijvoorbeeld doen met mensen die een allergie hebben voor pinda’s of eieren. Uiteindelijk kan je dan alle datasets samenvoegen en dan dit realiseren in een applicatie. En dan kan de gebruiker in de applicatie aangeven welke allergie die heeft. Vervolgens pakt de applicatie dan de juiste dataset.
+
+Het is ook mogelijk om het model uit te breiden. Hiermee bedoel ik dat je niet alleen lunch en diner meeneemt, omdat je meerdere keren op een dag eet. Je zou bijvoorbeeld het ontbijt hiermee ook kunnen meenemen. En als je het nog uitgebreider wilt kan je ook de tussendoortjes hierin meenemen. 
+
 # Conclusions
 # Planning
 
