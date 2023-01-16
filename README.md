@@ -155,7 +155,7 @@ Ik ben blij dat ik mijn ervaringen/kennis over SCRUM heb kunnen bijdragen aan de
 
 # Task Definition
 
-Tegenwoordig letten mensen steeds meer op wat ze eten. Dit zie je terug in verschillende diëten zoals vegetarische en veganistische diëten. Soms is het gemakkelijk om erachter te komen welk dieet het beste is voor iemand, maar vaak is het een ontmoedigende taak. Het doel van het food boost project is om een aanbevelingssysteem te creëren dat voorspelt of iemand een bepaald recept lekker zal vinden, geïmplementeerd in een dieet dat gemakkelijk te maken en vol te houden is. In dit project hebben mijn team en ik ons gericht op de basis van het voorspellende deel van het project en hoe de voorspelde gerechten in iemands dieet kunnen worden verwerkt, rekening houdend met notenallergieën. 
+Tegenwoordig letten mensen steeds meer op wat ze eten. Dit zie je terug in verschillende diëten zoals vegetarische en veganistische diëten. Soms is het gemakkelijk om erachter te komen welk dieet het beste is voor iemand, maar vaak is het een lastige taak. Het doel van het food boost project is om een aanbevelingssysteem te creëren dat voorspelt of iemand een bepaald recept lekker zal vinden, geïmplementeerd in een dieet dat gemakkelijk te maken en vol te houden is. In dit project hebben mijn team en ik ons gericht op de basis van het voorspellende deel van het project en hoe de voorspelde gerechten in iemands dieet kunnen worden verwerkt, rekening houdend met notenallergieën. 
 
 We hebben de volgende onderzoeksvragen gedefinieerd: 
 
