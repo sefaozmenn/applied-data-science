@@ -162,7 +162,7 @@ We hebben de volgende onderzoeksvragen gedefinieerd:
 
 Met welke methode kunnen we een wekelijkse lunch- en dineraanbeveling maken, rekening houdend met een notenallergie en rekening te houden met een gecombineerde gemiddelde hoeveelheid calorieën voor lunch en diner samen?
 
-1.	Welk voedsel kan worden beschouwd als een notenallergeen?
+1.	Welk gerecht kan worden beschouwd als een notenallergeen?
 2.	Wat is een gemiddelde hoeveelheid calorieën voor lunch en diner samen?
 3.	Welke methode wordt/kan gebruikt worden om te voorspellen of iemand een lunch of diner lekker vindt?
 4.	Welke methode kan gebruikt worden om een voedingsschema te maken met zoveel mogelijk variatie?
