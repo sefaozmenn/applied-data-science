@@ -186,8 +186,7 @@ We hebben ook een falsePositives-lijst gemaakt waarin we verschillende soorten i
 
 Ons onderzoek concludeerde dat de gemiddelde inname voor lunch en diner 1040 kcal per dag is. Het gemiddelde diner is ongeveer 575 kcal en de gemiddelde lunch 465 kcal. Dit is te zien in de onderstaande boxplot.
 
-![This is an image](https://github.com/sefaozmenn/applied-data-science/blob/main/datacamp/Introduction%20to%20Python.pdf)
-
+<details><summary>Boxplot</summary><img src="images/FoodBoost-Boxplot.png"></details>
 
 **Welke methode wordt/kan gebruikt worden om te voorspellen of iemand een lunch of diner lekker vindt?**
 
