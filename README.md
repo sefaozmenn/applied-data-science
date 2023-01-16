@@ -176,6 +176,12 @@ Het is natuurlijk ook beter als je dit model uitwerkt met andere soorten allergi
 Het is ook mogelijk om het model uit te breiden. Hiermee bedoel ik dat je niet alleen lunch en diner meeneemt, omdat je meerdere keren op een dag eet. Je zou bijvoorbeeld het ontbijt hiermee ook kunnen meenemen. En als je het nog uitgebreider wilt kan je ook de tussendoortjes hierin meenemen. 
 
 # Conclusions
+
+**Welk gerecht kan worden beschouwd als een notenallergeen?** 
+
+Een van de eerste dingen die we deden, was op internet zoeken naar een lijst of tabel met verschillende ingrediënten die als notenallergenen worden beschouwd. Omdat we verschillende ingrediënten vonden die noten bevatten, hebben we uiteindelijk verschillende soorten noten op een rij gezet en eruit gefilterd. 
+We hebben ook een falsePositives-lijst gemaakt waarin we verschillende soorten ingrediënten opsommen die geen enkele soort noten bevatten, maar wel noten in het woord zelf bevatten (bijv. nootmuskaat). Met deze lijst in de hand hebben we elk recept in de Allerhande-dataset bekeken en gecontroleerd of de ingrediënten iets bevatten dat als notenallergeen kan worden beschouwd.
+
 # Planning
 
 
