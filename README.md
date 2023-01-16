@@ -182,7 +182,22 @@ Het is ook mogelijk om het model uit te breiden. Hiermee bedoel ik dat je niet a
 Een van de eerste dingen die we deden, was op internet zoeken naar een lijst of tabel met verschillende ingrediënten die als notenallergenen worden beschouwd. Omdat we verschillende ingrediënten vonden die noten bevatten, hebben we uiteindelijk verschillende soorten noten op een rij gezet en eruit gefilterd. 
 We hebben ook een falsePositives-lijst gemaakt waarin we verschillende soorten ingrediënten opsommen die geen enkele soort noten bevatten, maar wel noten in het woord zelf bevatten (bijv. nootmuskaat). Met deze lijst in de hand hebben we elk recept in de Allerhande-dataset bekeken en gecontroleerd of de ingrediënten iets bevatten dat als notenallergeen kan worden beschouwd.
 
+**Wat is een gemiddelde hoeveelheid calorieën voor lunch en diner samen?**
+
+Ons onderzoek concludeerde dat de gemiddelde inname voor lunch en diner 1040 kcal per dag is. Het gemiddelde diner is ongeveer 575 kcal en de gemiddelde lunch 465 kcal. Dit is te zien in de onderstaande boxplot.
+
+**Welke methode wordt/kan gebruikt worden om te voorspellen of iemand een lunch of diner lekker vindt?**
+
+Voor ons project hebben we een algoritme voor een Decision Tree getraind op een dataset van receptingrediënten die gebruikers wel en niet lekker vinden. Met deze data kan een Decision Tree voorspellen of een gebruiker een recept lekker vindt.
+
+**Welke methode kan gebruikt worden om een voedingsschema te maken met zoveel mogelijk variatie?**
+
+Om zoveel mogelijk gevarieerde voerschema's te creëren, hebben we een lineair programmeermodel gebruikt. Het model gebruikt restricties om te voorkomen dat gebruikers elke dag hetzelfde recept krijgen en om het totale aantal calorieën voor diner en lunch onder de 1040 te houden. Het model mocht slechts één lunch- en één dinerrecept per dag kiezen.
+
 # Planning
+
+In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRUM aan het werk te gaan. Tot ongeveer week 10 liep goed en hielden we Trello echt goed bij en we bespraken ook altijd bij de meetings over de sprints en de taken die in Trello stonden. Na week 10 was het langzamerhand minder geworden, omdat we dus meer tijd gingen insteken in taken i.p.v. aan de planning. 
+
 
 
 # Selecting a model
