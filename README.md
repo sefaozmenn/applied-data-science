@@ -200,7 +200,7 @@ Om zoveel mogelijk gevarieerde voerschema's te creëren, hebben we een lineair p
 
 In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRUM aan het werk te gaan. Tot ongeveer week 10 liep goed en hielden we Trello echt goed bij en we bespraken ook altijd bij de meetings over de sprints en de taken die in Trello stonden. Na week 10 was het langzamerhand minder geworden, omdat we dus meer tijd gingen insteken in taken i.p.v. aan de planning. 
 
-<details><summary>Trello</summary><img src="images/Trello.png"></details>
+<details><summary>Trello</summary><img src="images/trello.png"></details>
 
 # Selecting a model
 # Configuring a model
