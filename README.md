@@ -215,6 +215,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 
 # Data Preprocessing
+Hier zal ik de data preprocessing van de data behandelen voor de FoodBoost project waaraan ik heb gewerkt.
 # Exploring and explanation of the dataset
 # Exploring and explanation of existing code
 # Visualization
