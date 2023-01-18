@@ -230,11 +230,11 @@ Ik heb de volgende bronnen gebruikt om kennis op te doen:
 In het project zijn er enkele termen en jargon die misschien uitgelegd moeten worden:
 
 - Reinforcement learning: is een gebied van machine learning dat zich bezighoudt met de vraag hoe intelligente agenten acties in een omgeving moeten ondernemen om de notie van cumulatieve beloning te maximaliseren. Versterkingsleren is een van de drie basisparadigma's voor machinaal leren, naast leren onder toezicht en leren zonder toezicht.
-- Lineaire programmering is een speciaal geval van wiskundige programmering. Het wordt ook wel wiskundige optimalisatie genoemd.
-- Lay-out: De locatie waar de containers staan.
+- Lineaire programmering: is een speciaal geval van wiskundige programmering. Het wordt ook wel wiskundige optimalisatie genoemd.
+- Lay-out: de locatie waar de containers staan.
 - Decision Tree: wordt gebruikt voor zowel classificatie- als regressietaken.
-- falsePositives-lijst: Een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
-- Scrum:is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
+- falsePositives-lijst: een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
+- Scrum: is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
 
 # Data Preprocessing
 Hier zal ik de data preprocessing van de data behandelen voor de FoodBoost project waaraan ik heb gewerkt.
