@@ -227,3 +227,6 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 - [Presentatie week 16 (Cofano)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/container%20-%20week%2016.pptx)
 
 # Paper
+
+Toen we klaar waren om te beginnen met het schrijven van de paper, vroeg ik de groep of ik de eindverantwoordelijke van de paper mocht zijn. Dit vroeg ik, omdat ik vaker eindverantwoordelijke van rapporten zoals een adviesrapport ben geweest in projecten. Ik vind het leuk en leerzaam om eindverantwoordelijk te zijn van een paper. Het is heel belangrijk dat iemand aangesteld wordt als eindverantwoordelijke van de paper. Anders komt straks de paper niet overeen of vergeten we punten in de paper.
+Toen we dit besloten hadden zijn we verdergegaan met de taakverdeling van de paper. Ik kreeg de taak om de toekomstig werk te beschrijven. Hiervoor ging ik met mijn team in gesprek en kijken wat we konden verzinnen als toekomstig werk. Hiervan heb ik aantekeningen gemaakt en ik heb ze netjes in de paper verwerkt.  
