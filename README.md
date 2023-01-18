@@ -220,7 +220,9 @@ Het containerproject past data science toe op logistiek transport. Het project i
 Ik heb de volgende bronnen gebruikt om kennis op te doen:
 
 Python: https://www.datacamp.com/
+
 Linear Programing: https://www.youtube.com/watch?v=0TD9EQcheZM
+
 Reinforcement Learning: https://www.youtube.com/watch?v=Mut_u40Sqz4&t=5659s
 
 # Explanataion of Terminology, Jargon and Definitions
