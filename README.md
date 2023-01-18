@@ -234,8 +234,7 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 - Lay-out: De locatie waar de containers staan.
 - Decision Tree: wordt gebruikt voor zowel classificatie- als regressietaken.
 - falsePositives-lijst: Een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
-- SCRUM: Scrum is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
-- 
+- Scrum:is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
 
 # Data Preprocessing
 Hier zal ik de data preprocessing van de data behandelen voor de FoodBoost project waaraan ik heb gewerkt.
