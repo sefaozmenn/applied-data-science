@@ -210,6 +210,11 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 
 # Introduction of the subject field
+
+Het foodboost project past data science toe op eindgebruikers. In ons project gaat dit dan over gebruikers met dieetwensen, omdat wij ons project hebben toegepast op notenallergenen. Het is belangrijk om te weten welk recept noteningrediënten bevat en uit de dataset is gefilterd. Het kan anders heel makkelijk fataal gaan als iemand allergisch is voor noten. 
+
+Het containerproject past data science toe op logistiek transport. Het project is gebaseerd op het sorteren van containers in een kade en het effectief en efficiënt creëren van een lay-out om de tijd die nodig is om de containers te lossen te verminderen. Dit proces moet efficiënt verlopen, want anders kost dit het bedrijf veel geld.
+
 # Literature Research
 # Explanataion of Terminology, Jargon and Definitions
 
