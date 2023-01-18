@@ -216,6 +216,13 @@ Het foodboost project past data science toe op eindgebruikers. In ons project ga
 Het containerproject past data science toe op logistiek transport. Het project is gebaseerd op het sorteren van containers in een kade en het effectief en efficiënt creëren van een lay-out om de tijd die nodig is om de containers te lossen te verminderen. Dit proces moet efficiënt verlopen, want anders kost dit het bedrijf veel geld.
 
 # Literature Research
+
+Ik heb de volgende bronnen gebruikt om kennis op te doen:
+
+Python: https://www.datacamp.com/
+Linear Programing: https://www.youtube.com/watch?v=0TD9EQcheZM
+Reinforcement Learning: https://www.youtube.com/watch?v=Mut_u40Sqz4&t=5659s
+
 # Explanataion of Terminology, Jargon and Definitions
 
 
