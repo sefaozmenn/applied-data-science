@@ -197,6 +197,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 # Predictive Analytics Cofano
 
+<details><summary>Notebook</summary><img src="notebooks/OnlineGame-Sefa.ipynb"></details>
 
 # Introduction of the subject field
 
