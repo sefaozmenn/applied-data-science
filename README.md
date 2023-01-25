@@ -33,10 +33,7 @@
 
 <h2>Data preprocessing</h2>
 
-- [Data Preprocessing](#Data-Preprocessing)
-- [Exploring and explanation of the dataset](#Exploring-and-explanation-of-the-dataset)
-- [Exploring and explanation of existing code](#Exploring-and-explanation-of-existing-code)
-- [Visualization](#Visualization)
+- [Foodboost](#Data-Preprocessing-Foodboost)
 
 <h2>Communication</h2>
 
@@ -198,7 +195,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 <details><summary>Trello</summary><img src="images/trello.png"></details>
 
-# Predictive Analytics Cofano 
+# Predictive Analytics
 
 
 # Introduction of the subject field
@@ -229,11 +226,6 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 - Scrum: is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
 
 # Data Preprocessing
-Hier zal ik de data preprocessing van de data behandelen voor de FoodBoost project waaraan ik heb gewerkt.
-# Exploring and explanation of the dataset
-# Exploring and explanation of existing code
-# Visualization
-
 
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
