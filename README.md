@@ -203,7 +203,7 @@ Dit Reinforcement model heb ik verdeeld in 10 stappen. In stap 1 importeer ik al
 
 [cart_pole_environment](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 
-Vervolgens in stap 4 en 5 train ik mijn model en sla ik het op. In stap 6 doe ik evaluatie, in stap 7 ik test ik het model.  In stap 8 voeg ik een callback toe aan mijn training model. Dit zorgt ervoor dat het model stopt zodra hij de reward treshold behaald. In stap 9 verander ik de policy, en in stap 10 gebruik ik een alternatief (DQN) algortime i.p.v. het PPO.
+Vervolgens in stap 4 en 5 train ik mijn model en sla ik het op. In stap 6 doe ik evaluatie, in stap 7 ik test ik het model.  In stap 8 voeg ik een callback toe aan mijn training model. Dit zorgt ervoor dat het model stopt zodra hij de reward treshold behaald. In stap 9 verander ik de policy, en in stap 10 gebruik ik een alternatief (DQN) algortime i.p.v. het PPO. 
 
 [Notebook](notebooks/OnlineGame-Sefa.ipynb)
 
