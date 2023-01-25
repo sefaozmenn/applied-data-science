@@ -23,7 +23,7 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Cofano](#Cofano)
+- [Cofano](#Cofano-Predictive-Analytics)
 
 <h2>Domain Knowledge</h2>
 
@@ -198,7 +198,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 <details><summary>Trello</summary><img src="images/trello.png"></details>
 
-# Cofano
+# Cofano Predictive Analytics
 
 
 # Introduction of the subject field
