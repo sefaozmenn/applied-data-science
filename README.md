@@ -236,6 +236,20 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 
 # Data Preprocessing Foodboost
 
+**Data Preperation**
+
+Eerst hebben we alleen de dataset geïmporteerd met alleen de recepten zonder noten en lunch & diner (dit is al gedaan in stap 1: filtering systeem, noten & maaltijden).
+
+Voor dat we aan de slag gingen hebben we zitten nadenken wat er allemaal moest gebeuren bij de data preperation. Uiteindelijk hebben we beslist om de volgende aanpassingen te doen: pivot tabellen aanmaken zodat we per recept kunnen zien welke tag/ingrediënt het bevat en dubbele kolommen samenvoegen, zoals: zwarte peperkorrels, zwarte peper korrel. En de extra kolom verwijderen.
+
+**Pivot tabellen maken**
+
+Ik ging zelf aan de slag om de pivot tabellen aan te maken. Ik ging research doen naar hoe je de waardes van 2 kolommen omzet naar: 1e kolom omzetten naar: alle waardes als kolom en 2e kolom omzetten naar: alle waardes als rijen. Vervolgens hebben we dit gefixt, maar gaf het de waarde 1 aan als het ingrediënt in het recept voorkwam en een NA als het niet voorkwam. Wij wilden 0/1 zien zodat we dit makkelijk konden onderscheiden. Hiervoor hebben we weer research gedaan en kwamen op de volgende code: tags_pivot= tags_pivot.fillna(0). Dit zorgt ervoor dat hij nullen invult waar hij de NA ziet staan. Nu hadden we de data goed voorbereid. Hiervoor had ik uiteraard wel hulp bij nodig. Joanne had me hierbij geholpen.
+Dubbele kolommen samenvoegen en de extra verwijderen
+
+Om dit te kunnen doen kende Joanne een library genaamd: FuzzyWuzzy. Ik heb vervolgens aan meneer Vuurens gevraagd of hij dit kon uploaden in de server zodat we hier gebruik van konden maken. Vervolgens had Joanne dit al snel opgepakt.
+
+
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
 - [Presentatie week 6 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/food%20project%20week%206.pptx)
