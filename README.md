@@ -255,6 +255,8 @@ Om dit te kunnen doen kende Joanne een library genaamd: FuzzyWuzzy. Ik heb vervo
 
 <details><summary>FuzzyWuzzy</summary><img src="images/fuzzywuzzy.png"></details>
 
+[Notebook](notebooks/final versie.ipynb)
+
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
 - [Presentatie week 6 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/food%20project%20week%206.pptx)
