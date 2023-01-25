@@ -240,14 +240,19 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 
 Eerst hebben we alleen de dataset geïmporteerd met alleen de recepten zonder noten en lunch & diner (dit is al gedaan in stap 1: filtering systeem, noten & maaltijden).
 
-Voor dat we aan de slag gingen hebben we zitten nadenken wat er allemaal moest gebeuren bij de data preperation. Uiteindelijk hebben we beslist om de volgende aanpassingen te doen: pivot tabellen aanmaken zodat we per recept kunnen zien welke tag/ingrediënt het bevat en dubbele kolommen samenvoegen, zoals: zwarte peperkorrels, zwarte peper korrel. En de extra kolom verwijderen.
+Voor dat we aan de slag gingen hebben we zitten nadenken wat er allemaal moest gebeuren bij de data preperation. Uiteindelijk hebben we beslist om de volgende aanpassingen te doen: pivot tabellen aanmaken zodat we per recept kunnen zien welke tag/ingrediënt het bevat en dubbele kolommen samenvoegen, zoals: zwarte peperkorrels, zwarte peper korrel. 
 
 **Pivot tabellen maken**
 
-Ik ging zelf aan de slag om de pivot tabellen aan te maken. Ik ging research doen naar hoe je de waardes van 2 kolommen omzet naar: 1e kolom omzetten naar: alle waardes als kolom en 2e kolom omzetten naar: alle waardes als rijen. Vervolgens hebben we dit gefixt, maar gaf het de waarde 1 aan als het ingrediënt in het recept voorkwam en een NA als het niet voorkwam. Wij wilden 0/1 zien zodat we dit makkelijk konden onderscheiden. Hiervoor hebben we weer research gedaan en kwamen op de volgende code: tags_pivot= tags_pivot.fillna(0). Dit zorgt ervoor dat hij nullen invult waar hij de NA ziet staan. Nu hadden we de data goed voorbereid. Hiervoor had ik uiteraard wel hulp bij nodig. Joanne had me hierbij geholpen.
+Ik ging samen met Joanne aan de slag om de pivot tabellen aan te maken. Ik ging research doen naar hoe je de waardes van 2 kolommen omzet naar: 
 
-<details><summary>Pivot tabel code </summary><img src="images/pivot_tabellen.png"></details>
-<details><summary>Visualisatie van het tabel</summary><img src="images/pivot_visualisatie.png"></details>
+-	Ingrediënten/tags kolom omzetten naar: alle ingrediënten/tags als kolom. 
+-	Recepten kolom omzetten naar: alle recepten als rijen
+
+We hebben dit opgelost, maar de waarde gaf 1 aan als het ingrediënt in het recept voorkwam en een NA als het niet voorkwam. Wij wilden niet een NA zien, maar een 0 zodat we dit makkelijk konden onderscheiden van een 1. Hiervoor hebben we weer research gedaan en kwamen op de volgende code: tags_pivot= tags_pivot.fillna(0). Dit zorgt ervoor dat hij nullen invult waar hij de NA ziet staan. 
+
+<details><summary>Code</summary><img src="images/pivot_code.png"></details>
+<details><summary>Tabel</summary><img src="images/pivot_tabel.png"></details>
 
 **Dubbele kolommen samenvoegen en de extra verwijderen**
 
