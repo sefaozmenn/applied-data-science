@@ -201,7 +201,7 @@ Tijdens het Cofano project was het de bedoeling dat iedereen bezig zal zijn met 
 
 Dit Reinforcement model heb ik verdeeld in 10 stappen. In stap 1 importeer ik alles wat ik nodig heb. In stap 2 laad ik de environment CartPole-V0 in. Om het environment te begrijpen laat ik in stap 3 zien wat voor opties het environment biedt. Hiervoor heb ik 2 voorbeelden waarmee ik een random action_space en een observation_space laat zien. In de onderstaande link vind je algemene informatie over het environment waar ik gebruik van heb gemaakt.
 
-- [cart_pole_environment](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
+[cart_pole_environment](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 
 Vervolgens in stap 4 en 5 train ik mijn model en sla ik het op. In stap 6 doe ik evaluatie, in stap 7 ik test ik het model.  In stap 8 voeg ik een callback toe aan mijn training model. Dit zorgt ervoor dat het model stopt zodra hij de reward treshold behaald. In stap 9 verander ik de policy, en in stap 10 gebruik ik een alternatief (DQN) algortime i.p.v. het PPO.
 
