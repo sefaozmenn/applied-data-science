@@ -23,11 +23,7 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Selecting a model](#Selecting-a-model)
-- [Configuring a model](#Configuring-a-model)
-- [Training a model](#Training-a-model)
-- [Evaluating a model](#Evaluating-a-model)
-- [Visualizing the outcome of a model](#Visualizing)
+- [Cofano](#Cofano)
 
 <h2>Domain Knowledge</h2>
 
@@ -202,11 +198,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 <details><summary>Trello</summary><img src="images/trello.png"></details>
 
-# Selecting a model
-# Configuring a model
-# Training a model
-# Evaluating a model
-# Visualizing the outcome of a model
+# Cofano
 
 
 # Introduction of the subject field
