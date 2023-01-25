@@ -23,7 +23,7 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Cofano](#Predictive-Analytics)
+- [Cofano](#Predictive-Analytics-Cofano)
 
 <h2>Domain Knowledge</h2>
 
@@ -33,7 +33,7 @@
 
 <h2>Data preprocessing</h2>
 
-- [Foodboost](#Data-Preprocessing)
+- [Foodboost](#Data-Preprocessing-Foodboost)
 
 <h2>Communication</h2>
 
@@ -195,7 +195,7 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 <details><summary>Trello</summary><img src="images/trello.png"></details>
 
-# Predictive Analytics
+# Predictive Analytics Cofano
 
 
 # Introduction of the subject field
@@ -225,7 +225,7 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 - falsePositives-lijst: een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
 - Scrum: is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
 
-# Data Preprocessing
+# Data Preprocessing Foodboost
 
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
