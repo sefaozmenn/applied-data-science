@@ -206,7 +206,8 @@ Dit Reinforcement model heb ik verdeeld in 10 stappen. In stap 1 importeer ik al
 Vervolgens in stap 4 en 5 train ik mijn model en sla ik het op. In stap 6 doe ik evaluatie, in stap 7 ik test ik het model.  In stap 8 voeg ik een callback toe aan mijn training model. Dit zorgt ervoor dat het model stopt zodra hij de reward treshold behaald. In stap 9 verander ik de policy, en in stap 10 gebruik ik een alternatief (DQN) algortime i.p.v. het PPO.
 
 
-<details><summary>Notebook</summary><img src="notebooks/OnlineGame-Sefa.ipynb"></details>
+<summary>Notebook</summary><img src="notebooks/OnlineGame-Sefa.ipynb">
+[Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
 
 # Introduction of the subject field
 
