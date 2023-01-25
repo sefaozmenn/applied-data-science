@@ -247,8 +247,12 @@ Voor dat we aan de slag gingen hebben we zitten nadenken wat er allemaal moest g
 Ik ging zelf aan de slag om de pivot tabellen aan te maken. Ik ging research doen naar hoe je de waardes van 2 kolommen omzet naar: 1e kolom omzetten naar: alle waardes als kolom en 2e kolom omzetten naar: alle waardes als rijen. Vervolgens hebben we dit gefixt, maar gaf het de waarde 1 aan als het ingrediënt in het recept voorkwam en een NA als het niet voorkwam. Wij wilden 0/1 zien zodat we dit makkelijk konden onderscheiden. Hiervoor hebben we weer research gedaan en kwamen op de volgende code: tags_pivot= tags_pivot.fillna(0). Dit zorgt ervoor dat hij nullen invult waar hij de NA ziet staan. Nu hadden we de data goed voorbereid. Hiervoor had ik uiteraard wel hulp bij nodig. Joanne had me hierbij geholpen.
 Dubbele kolommen samenvoegen en de extra verwijderen
 
+<details><summary>Pivot tabel code </summary><img src="images/pivot_tabellen.png"></details>
+<details><summary>Visualisatie van het tabel</summary><img src="images/pivot_visualisatie.png"></details>
+
 Om dit te kunnen doen kende Joanne een library genaamd: FuzzyWuzzy. Ik heb vervolgens aan meneer Vuurens gevraagd of hij dit kon uploaden in de server zodat we hier gebruik van konden maken. Vervolgens had Joanne dit al snel opgepakt.
 
+<details><summary>FuzzyWuzzy</summary><img src="images/fuzzywuzzy.png"></details>
 
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
