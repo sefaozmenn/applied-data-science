@@ -251,8 +251,8 @@ Ik ging samen met Joanne aan de slag om de pivot tabellen aan te maken. Ik ging 
 
 We hebben dit opgelost, maar de waarde gaf 1 aan als het ingrediënt in het recept voorkwam en een NA als het niet voorkwam. Wij wilden niet een NA zien, maar een 0 zodat we dit makkelijk konden onderscheiden van een 1. Hiervoor hebben we weer research gedaan en kwamen op de volgende code: tags_pivot= tags_pivot.fillna(0). Dit zorgt ervoor dat hij nullen invult waar hij de NA ziet staan. 
 
-<details><summary>Code</summary><img src="images/pivot_code.png"></details>
-<details><summary>Tabel</summary><img src="images/pivot_tabel.png"></details>
+<details><summary>Code</summary><img src="images/pivot_tabellen.png"></details>
+<details><summary>Tabel</summary><img src="images/pivot_visualisatie.png"></details>
 
 **Dubbele kolommen samenvoegen en de extra verwijderen**
 
