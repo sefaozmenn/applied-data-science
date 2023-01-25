@@ -23,7 +23,7 @@
 
 <h2>Predictive Analytics</h2>
 
-- [Cofano](#Predictive-Analytics-Cofano)
+- [Cofano](#Predictive-Analytics)
 
 <h2>Domain Knowledge</h2>
 
@@ -33,7 +33,7 @@
 
 <h2>Data preprocessing</h2>
 
-- [Foodboost](#Data-Preprocessing-Foodboost)
+- [Foodboost](#Data-Preprocessing)
 
 <h2>Communication</h2>
 
