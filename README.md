@@ -277,5 +277,5 @@ Ik kreeg de taak om de toekomstig werk van de paper te beschrijven. Hiervoor gin
 In de laatste dagen van de minor had iedereen zijn deel van de paper af en hebben we met de groep besloten om ieder de gehele paper door te nemen en als die vragen/feedback heeft neer te zetten als een comment. Verder heeft ieder student ook de taak gekregen om echt specifiek naar 1 onderwerp diep in te duiken. Ik heb de taak gekregen om methodiek na te kijken op inhoud/spelling/grammatica. Hier viel mij vooral op dat we uitleg geven over wat reinforcement learning is, en niet de gehele uitleg over hoe wij RL toepassen binnen het project. Het uitleg over wat RL is heb ik vervolgens ook ingekort. 
 
 
-Link naar PAPER(https://github.com/sefaozmenn/applied-data-science/blob/main/Paper%20Groep%205%20Cofano%20Containers.pdf)
+[Link naar PAPER](https://github.com/sefaozmenn/applied-data-science/blob/main/Paper%20Groep%205%20Cofano%20Containers.pdf)
 
