@@ -270,5 +270,12 @@ Om dit te kunnen doen kende Joanne een library genaamd: FuzzyWuzzy. Ik heb vervo
 
 # Paper
 
-Om te beginnen met het schrijven van de paper, vroeg ik de groep of ik de eindverantwoordelijke van de paper mocht zijn. Dit vroeg ik, omdat ik vaker eindverantwoordelijke van rapporten zoals een adviesrapport ben geweest in projecten. Ik vind het leuk en leerzaam om eindverantwoordelijk te zijn van een paper. Het is heel belangrijk dat iemand aangesteld wordt als eindverantwoordelijke van de paper. Anders komt straks de paper niet overeen of vergeten we punten in de paper.
-Toen we dit besloten hadden zijn we verdergegaan met de taakverdeling van de paper. Ik kreeg de taak om de toekomstig werk te beschrijven. Hiervoor ging ik met mijn team in gesprek en kijken wat we konden verzinnen als toekomstig werk. Hiervan heb ik aantekeningen gemaakt en ik heb ze netjes in de paper verwerkt.  
+Om te beginnen met het schrijven van de paper, vroeg ik de groep of ik de eindverantwoordelijke van de paper mocht zijn. Dit vroeg ik, omdat ik vaker eindverantwoordelijke van rapporten zoals een adviesrapport ben geweest in projecten. Ik vind het leuk en leerzaam om eindverantwoordelijk te zijn van een paper. Het is heel belangrijk dat iemand aangesteld wordt als eindverantwoordelijke van de paper. Anders komt straks de paper niet overeen of vergeten we punten in de paper. Toen we dit besloten hadden zijn we verdergegaan met de taakverdeling van de paper. 
+
+Ik kreeg de taak om de toekomstig werk van de paper te beschrijven. Hiervoor ging ik met mijn team in gesprek en gingen we brainstormen wat we konden neerzetten als toekomstig werk. Uit deze gesprek/brainstormsessie heb ik aantekeningen van gemaakt. Vervolgens heb ik van deze punten een verhaal gemaakt en in de paper als toekomstig werk ingezet. 
+
+In de laatste dagen van de minor had iedereen zijn deel van de paper af en hebben we met de groep besloten om ieder de gehele paper door te nemen en als die vragen/feedback heeft neer te zetten als een comment. Verder heeft ieder student ook de taak gekregen om echt specifiek naar 1 onderwerp diep in te duiken. Ik heb de taak gekregen om methodiek na te kijken op inhoud/spelling/grammatica. Hier viel mij vooral op dat we uitleg geven over wat reinforcement learning is, en niet de gehele uitleg over hoe wij RL toepassen binnen het project. Het uitleg over wat RL is heb ik vervolgens ook ingekort. 
+
+
+Link naar PAPER(https://github.com/sefaozmenn/applied-data-science/blob/main/Paper%20Groep%205%20Cofano%20Containers.pdf)
+
