@@ -197,15 +197,30 @@ In het begin had ik een SCRUM board via Trello opgezet voor ons team om met SCRU
 
 # Predictive Analytics Cofano
 
-Tijdens het Cofano project was het de bedoeling dat iedereen bezig zal zijn met zijn eigen Reinforcement Learning model en dan uiteindelijk zullen we dan deze modellen vergelijken en samenvoegen tot een Reinforcement Learning model. Ik heb zelf gebruik gemaakt van een YouTube Tutorial waarbij ik gebruik maak van het Stable Baseline 3 library en PPO-algoritme. Hierbij gebruikte ik ook het Cart Pole environment wat een onderdeel is van de classic control environments. In de onderstaande link vind je algemene informatie over het environment waar ik gebruik van heb gemaakt.
+Tijdens het Cofano project was het de bedoeling dat iedereen bezig zal zijn met zijn eigen Reinforcement Learning model en dan uiteindelijk zullen we dan deze modellen vergelijken en samenvoegen tot een Reinforcement Learning model. Voor deze model heb ik de stable-baselines3 library gebruikt, die implementaties biedt van zowel DQN als PPO. Ik gebruik hierbij de [CartPole-v0-environment](https://www.gymlibrary.dev/environments/classic_control/cart_pole/), een eenvoudig besturingsprobleem waarbij het doel is een paal op een kar in evenwicht te houden door de kar naar links of rechts te bewegen. 
 
-[cart_pole_environment](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
+[Notebook](notebooks/OnlineGame-Sefa4.ipynb)
 
-Dit Reinforcement model heb ik verdeeld in 10 stappen. In stap 1 importeer ik alles wat ik nodig heb. In stap 2 laad ik de environment CartPole-V0 in. Om het environment te begrijpen probeer ik in stap 3 de verschillende opties die het environment biedt. Hiervoor heb ik 2 voorbeelden waarmee ik een random action_space en een observation_space laat zien.
+Ik gebruik het "MlpPolicy" voor de neurale netwerkarchitectuur. Hierbij gebruik ik een multi-layer perceptron om de Q-functie te benaderen. Ik heb het verbose argument op 1 ingesteld, waardoor de voortgang van de training wordt weergegeven. Ik heb de total_timesteps op 10000 ingesteld, dit is het totale aantal timesteps waarvoor het model wordt getraind.
 
-Vervolgens in stap 4 en 5 train ik mijn model en sla ik het op. In stap 6 doe ik evaluatie, in stap 7 ik test ik het model.  In stap 8 voeg ik een callback toe aan mijn training model. Dit zorgt ervoor dat het model stopt zodra hij de reward treshold behaald. In stap 9 verander ik de policy, en in stap 10 gebruik ik een alternatief (DQN) algortime i.p.v. het PPO. 
+Ik evalueer beide modellen met 100 afleveringen en plot de beloningen met behulp van matplotlib. Ik zie dat beide modellen in staat zijn te leren de paal op de kar in evenwicht te houden, maar het PPO-model lijkt veel beter te presteren dan het DQN-model.
 
-[Notebook](notebooks/OnlineGame-Sefa.ipynb)
+<details><summary>Trello</summary><img src="images/ppo_vs_dqn.png"></details>
+
+Ik heb een grid search gemaakt om de learning rate voor het DQN-model af te stemmen. Hierbij heb ik een lijst met learning rates om en een DQN-model te testen en te trainen voor elke learning rate. Vervolgens evalueer ik elk model met de evaluate_policy functie en noteer ik de gemiddelde reward. Ik zet de gemiddelde reward voor elke learning rate uit om de beste learning rate te vinden.
+
+<details><summary>Trello</summary><img src="images/tuning_hyperparameters.png"></details>
+
+**Discussie**
+Je kan de hyperparameters afstemmen om de prestaties van de modellen te verbeteren. De belangrijkste hyperparameters voor DQN en PPO zijn de learning rate, de batch size en het aantal lagen in het neurale netwerk. Je zou willekeurig kunnen zoeken of grid search gebruiken om de beste hyperparameters te vinden.
+
+Om underfitting te voorkomen, moet je ervoor zorgen dat het neurale netwerk voldoende capaciteit heeft om het beleid te leren. Je kan het aantal lagen of neuronen in het neurale netwerk verhogen om de capaciteit ervan te vergroten.
+
+Om overfitting te voorkomen, kan je technieken gebruiken als vroegtijdig stoppen, regularisatie en drop-out. Bij vroegtijdig stoppen, stop je met het trainen van het model wanneer het validatieverlies niet meer verbetert. Bij regularisatie voeg je een penalty toe aan de verliesfunctie om te voorkomen dat de gewichten te groot worden. Bij drop-out laat je willekeurig enkele neuronen vallen tijdens de training om te voorkomen dat je te veel vertrouwen stelt in specifieke neuronen.
+
+**Conclusie**
+Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. Ik heb ook uitgelegd hoe je onder- en overfitting in de modellen kan voorkomen.
+
 
 # Introduction of the subject field
 
