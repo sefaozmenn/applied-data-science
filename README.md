@@ -205,13 +205,14 @@ Ik gebruik het "MlpPolicy" voor de neurale netwerkarchitectuur. Hierbij gebruik 
 
 Ik evalueer beide modellen met 100 afleveringen en plot de beloningen met behulp van matplotlib. Ik zie dat beide modellen in staat zijn te leren de paal op de kar in evenwicht te houden, maar het PPO-model lijkt veel beter te presteren dan het DQN-model.
 
-<details><summary>Trello</summary><img src="images/ppo_vs_dqn.png"></details>
+<details><summary>PPO vs DQN</summary><img src="images/ppo_vs_dqn.png"></details>
 
 Ik heb een grid search gemaakt om de learning rate voor het DQN-model af te stemmen. Hierbij heb ik een lijst met learning rates om en een DQN-model te testen en te trainen voor elke learning rate. Vervolgens evalueer ik elk model met de evaluate_policy functie en noteer ik de gemiddelde reward. Ik zet de gemiddelde reward voor elke learning rate uit om de beste learning rate te vinden.
 
-<details><summary>Trello</summary><img src="images/tuning_hyperparameters.png"></details>
+<details><summary>Tuning hyperparameters</summary><img src="images/tuning_hyperparameters.png"></details>
 
 **Discussie**
+
 Je kan de hyperparameters afstemmen om de prestaties van de modellen te verbeteren. De belangrijkste hyperparameters voor DQN en PPO zijn de learning rate, de batch size en het aantal lagen in het neurale netwerk. Je zou willekeurig kunnen zoeken of grid search gebruiken om de beste hyperparameters te vinden.
 
 Om underfitting te voorkomen, moet je ervoor zorgen dat het neurale netwerk voldoende capaciteit heeft om het beleid te leren. Je kan het aantal lagen of neuronen in het neurale netwerk verhogen om de capaciteit ervan te vergroten.
@@ -219,6 +220,7 @@ Om underfitting te voorkomen, moet je ervoor zorgen dat het neurale netwerk vold
 Om overfitting te voorkomen, kan je technieken gebruiken als vroegtijdig stoppen, regularisatie en drop-out. Bij vroegtijdig stoppen, stop je met het trainen van het model wanneer het validatieverlies niet meer verbetert. Bij regularisatie voeg je een penalty toe aan de verliesfunctie om te voorkomen dat de gewichten te groot worden. Bij drop-out laat je willekeurig enkele neuronen vallen tijdens de training om te voorkomen dat je te veel vertrouwen stelt in specifieke neuronen.
 
 **Conclusie**
+
 Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. Ik heb ook uitgelegd hoe je onder- en overfitting in de modellen kan voorkomen.
 
 
