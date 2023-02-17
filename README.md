@@ -203,7 +203,7 @@ Tijdens het Cofano project was het de bedoeling dat iedereen bezig zal zijn met 
 
 Ik gebruik het "MlpPolicy" voor de neurale netwerkarchitectuur. Hierbij gebruik ik een multi-layer perceptron om de Q-functie te benaderen. Ik heb het verbose argument op 1 ingesteld, waardoor de voortgang van de training wordt weergegeven. Ik heb de total_timesteps op 10000 ingesteld, dit is het totale aantal timesteps waarvoor het model wordt getraind.
 
-Ik evalueer beide modellen met 100 afleveringen en plot de beloningen met behulp van matplotlib. Ik zie dat beide modellen in staat zijn te leren de paal op de kar in evenwicht te houden, maar het PPO-model lijkt veel beter te presteren dan het DQN-model.
+Ik evalueer beide modellen met 100 afleveringen en plot de rewards met behulp van matplotlib. Ik zie dat beide modellen in staat zijn te leren de paal op de kar in evenwicht te houden, maar het PPO-model lijkt veel beter te presteren dan het DQN-model.
 
 <details><summary>PPO vs DQN</summary><img src="images/ppo_vs_dqn.png"></details>
 
