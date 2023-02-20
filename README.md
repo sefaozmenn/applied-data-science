@@ -24,6 +24,7 @@
 <h2>Predictive Analytics</h2>
 
 - [Cofano](#Predictive-Analytics-Cofano)
+- [Foodboost](#Foodboost-Project)
 
 <h2>Domain Knowledge</h2>
 
@@ -222,6 +223,8 @@ Om overfitting te voorkomen, kan je technieken gebruiken als vroegtijdig stoppen
 **Conclusie**
 
 Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. Ik heb ook uitgelegd hoe je onder- en overfitting in de modellen kan voorkomen.
+
+# Foodboost project
 
 
 # Introduction of the subject field
