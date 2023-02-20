@@ -294,8 +294,7 @@ Ik moest ook alle tags in mijn ‘nut_pivot’ dataframe krijgen om hierop analy
 Ik heb ook twee boxplots gemaakt om inzicht te krijgen in wat voor waardes per nutrition zitten. Omdat de waardes van natrium en energie veel hoger zit vergeleken met de rest heb ik dit in een aparte boxplot gezet.
 
 <details><summary>Boxplot nutritions</summary><img src="images/boxplot_nutritions.png"></details>
-[Notebook voorspelling gezond](notebooks/sefa_voorspelling_gezond.ipynb)
-
+[Notebook_voorspelling_gezond](notebooks/sefa_voorspelling_gezond.ipynb)
 
 
 # Presentations
