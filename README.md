@@ -282,6 +282,22 @@ Om dit te kunnen doen kende Joanne een library genaamd: FuzzyWuzzy. Ik heb vervo
 
 [Notebook](notebooks/final_versie.ipynb)
 
+Om predictive analysis te kunnen uitvoeren op mijn foodboost project moest ik weer wat data gaan voorbereiden. Ik heb gebruik gemaakt van 2 datasets: nutritions.csv en tags.csv
+
+Ik wilde alle ‘nutrition’ als kolom en alle ‘value’ als de waardes van deze nutritions meegeven. Hiervoor moest ik de pivot_table functie gebruiken. Daarna moest ik ook alle strings weglaten en dit heb ik gedaan d.m.v. het str.replace functie. Nu zijn de waardes alleen getallen zoals 5.0 i.p.v. 5.0 g (g van gram). Er waren ook ‘NA’ waardes en deze heb ik gevuld met 0. 
+
+Ik moest ook alle tags in mijn ‘nut_pivot’ dataframe krijgen om hierop analyses te kunnen uitvoeren. Ik heb dus alle ‘tag’ in tags.csv gegroepeerd van elke recept in een rij. Daarna heb ik dit gemerged met mijn ‘nut_pivot’ dataframe op basis van de ‘recipe’ waardes. 
+
+<details><summary>Data preperation voorspelling gezond</summary><img src="images/data_gezond_voorspellen.png"></details>
+<details><summary>Tabel</summary><img src="images/tabel_gezond_voorspellen.png"></details>
+
+Ik heb ook twee boxplots gemaakt om inzicht te krijgen in wat voor waardes per nutrition zitten. Omdat de waardes van natrium en energie veel hoger zit vergeleken met de rest heb ik dit in een aparte boxplot gezet.
+
+<details><summary>Boxplot nutritions</summary><img src="images/boxplot_nutritions.png"></details>
+[Notebook voorspelling gezond](notebooks/sefa_voorspelling_gezond.ipynb)
+
+
+
 # Presentations
 - [Presentatie week 4 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/Voortgang%20food%20project%20week%204.pptx)
 - [Presentatie week 6 (Foodboost)](https://github.com/sefaozmenn/applied-data-science/blob/main/presentaties/food%20project%20week%206.pptx)
