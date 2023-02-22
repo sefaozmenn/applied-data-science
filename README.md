@@ -212,14 +212,6 @@ Ik heb een grid search gemaakt om de learning rate voor het DQN-model af te stem
 
 <details><summary>Tuning hyperparameters</summary><img src="images/tuning_hyperparameters.png"></details>
 
-**Discussie**
-
-Je kan de hyperparameters afstemmen om de prestaties van de modellen te verbeteren. De belangrijkste hyperparameters voor DQN en PPO zijn de learning rate, de batch size en het aantal lagen in het neurale netwerk. Je zou willekeurig kunnen zoeken of grid search gebruiken om de beste hyperparameters te vinden.
-
-Om underfitting te voorkomen, moet je ervoor zorgen dat het neurale netwerk voldoende capaciteit heeft om het beleid te leren. Je kan het aantal lagen of neuronen in het neurale netwerk verhogen om de capaciteit ervan te vergroten.
-
-Om overfitting te voorkomen, kan je technieken gebruiken als vroegtijdig stoppen, regularisatie en drop-out. Bij vroegtijdig stoppen, stop je met het trainen van het model wanneer het validatieverlies niet meer verbetert. Bij regularisatie voeg je een penalty toe aan de verliesfunctie om te voorkomen dat de gewichten te groot worden. Bij drop-out laat je willekeurig enkele neuronen vallen tijdens de training om te voorkomen dat je te veel vertrouwen stelt in specifieke neuronen.
-
 **Conclusie**
 
 Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. Ik heb ook uitgelegd hoe je onder- en overfitting in de modellen kan voorkomen.
