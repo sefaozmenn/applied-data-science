@@ -214,7 +214,7 @@ Ik heb een grid search gemaakt om de learning rate voor het DQN-model af te stem
 
 **Conclusie**
 
-Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. Ik heb ook uitgelegd hoe je onder- en overfitting in de modellen kan voorkomen.
+Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselines3 en de prestaties geëvalueerd in de cartpole-v0 environment. Ik heb de resultaten gevisualiseerd en de hyperparameters afgestemd om de prestaties te verbeteren. 
 
 # Foodboost project
 
