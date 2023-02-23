@@ -287,6 +287,11 @@ Ik heb ook twee boxplots gemaakt om inzicht te krijgen in wat voor waardes per n
 
 <details><summary>Boxplot nutritions</summary><img src="images/boxplot_nutritions.png"></details>
 
+Met deze inzicht heb ik de criteria's van mijn nutritions bepaald. Deze criteria's heb ik weer gebruikt om te definieren wanneer een recept gezond is. (Dit is compleet verzonnen door mijzelf.)
+Als recept['koolhydraten'] < 50 and recept['vet'] < 15:score += 1
+
+<details><summary>Gezonde score definitie</summary><img src="images/code_gezonde_score.png"></details>
+
 [Notebook voorspelling gezond](notebooks/sefa_final.ipynb)
 
 
