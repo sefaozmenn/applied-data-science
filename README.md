@@ -287,7 +287,7 @@ Ik heb ook twee boxplots gemaakt om inzicht te krijgen in wat voor waardes per n
 
 <details><summary>Boxplot nutritions</summary><img src="images/boxplot_nutritions.png"></details>
 
-[Notebook voorspelling gezond](notebooks/sefa_voorspelling_gezond.ipynb)
+[Notebook voorspelling gezond](notebooks/Sefa_voorspelling_gezond-NEW (2).ipynb)
 
 
 # Presentations
