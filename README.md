@@ -236,13 +236,13 @@ Vervolgens gebruik ik drie regressiemodellen, namelijk RandomForestRegressor, Li
 
 <details><summary>Training en testing</summary><img src="images/train_en_test.png"></details>
 
+<details><summary>MSE uitkomsten</summary><img src="images/MSE_scores.png"></details>
+
 Model keuze = RandomForest
 
 Uit de resultaten van de drie modellen blijkt dat de MSE van het RandomForestRegressor-model lager is dan de MSE van het Lineaire regressiemodel en van de Ridge. Dit betekent dat het RandomForestRegressor-model beter presteert in het voorspellen van de gezonde score van de recepten dan het Lineaire regressiemodel en de Ridge. Het LinearRegression en Ridge zijn bijna hetzelfde, dit klopt omdat Ridge regession een extensie is van LinearRegression. Daarom is het logisch om verder te gaan met het RandomForestRegressor-model in plaats van het Lineaire regressiemodel of Ridge.
 
 Daarna maak ik een DataFrame genaamd resultframe met de werkelijke y-waarden, de voorspelde waarden van elk van de drie modellen, het recept dat bij elke voorspelling hoort en de tags die bij elk recept horen. Ten slotte voeg ik het resultframe DataFrame samen met een ander DataFrame tags_together op de receptkolom, en sla ik het resulterende DataFrame op in resultframe.
-
-<details><summary>MSE uitkomsten</summary><img src="images/MSE_scores.png"></details>
 
 Hier tune ik de hyperparameters van de RandomForestRegressor met behulp van GridSearchCV. Ik heb een dictionary aangemaakt met de verschillende waarden die getest zullen worden voor de parameters 'n_estimators', 'max_depth', 'min_samples_split' en 'min_samples_leaf'. Ik gebruik GridSearchCV om de beste hyperparameters te vinden door de parameter grid te doorlopen met 5-fold cross-validation en het negatieve gemiddelde van de mean squared error te gebruiken als score. Ten slotte worden de beste gevonden hyperparameters en de beste MSE geprint. Deze hyperparameters gebruik ik dan bij mijn RandomForest model.
 
