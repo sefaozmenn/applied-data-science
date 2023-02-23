@@ -218,36 +218,6 @@ Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselin
 
 # Foodboost project
 
-
-# Introduction of the subject field
-
-Het foodboost project past data science toe op eindgebruikers. In ons project gaat dit dan over gebruikers met dieetwensen, omdat wij ons project hebben toegepast op notenallergenen. Het is belangrijk om te weten welk recept noteningrediënten bevat en uit de dataset is gefilterd. Het kan anders heel makkelijk fataal gaan als iemand allergisch is voor noten. 
-
-Het containerproject past data science toe op logistiek transport. Het project is gebaseerd op het sorteren van containers in een kade en het effectief en efficiënt creëren van een lay-out om de tijd die nodig is om de containers te lossen te verminderen. Dit proces moet efficiënt verlopen, want anders kost dit het bedrijf veel geld.
-
-# Literature Research
-
-Ik heb de volgende bronnen gebruikt om kennis op te doen:
-
-- [Python](https://www.datacamp.com/)
-- [Linear Programming](https://www.youtube.com/watch?v=0TD9EQcheZM)
-- [Linear Programming](https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf)
-- [Reinforcement Learning](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=5659s)
-- [Reinforcement Learning](https://www.youtube.com/watch?v=JgvyzIkgxF0&t=816s)
-
-# Explanataion of Terminology, Jargon and Definitions
-
-In het project zijn er enkele termen en jargon die misschien uitgelegd moeten worden:
-
-- Reinforcement learning: is een gebied van machine learning dat zich bezighoudt met de vraag hoe intelligente agenten acties in een omgeving moeten ondernemen om de notie van cumulatieve beloning te maximaliseren. Versterkingsleren is een van de drie basisparadigma's voor machinaal leren, naast leren onder toezicht en leren zonder toezicht.
-- Lineaire programmering: is een speciaal geval van wiskundige programmering. Het wordt ook wel wiskundige optimalisatie genoemd.
-- Lay-out: de locatie waar de containers staan.
-- Decision Tree: wordt gebruikt voor zowel classificatie- als regressietaken.
-- falsePositives-lijst: een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
-- Scrum: is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
-
-# Data Preprocessing Foodboost
-
 Voor mijn herkansing wilde ik graag een voorspelling doen of een recept gezond of ongezond is. Hiervoor heb ik wat data preperation gedaan om de tabel te krijgen die ik wil, maar in de datasets bevindt er geen kenmerk (kolom/rij etc..) waarbij te herkennen is of een recept gezond is. Dus heb ik ervoor gekozen om een eigen formule te maken.
 
 Hier bereken ik de gezonde_score voor elk recept in een dataframe genaamd recepten. De score bereken ik met behulp van verschillende criteria met betrekking tot de voedingswaarde van het recept, zoals de hoeveelheid eiwitten, vetten, koolhydraten, vezels, natrium en suikers.
@@ -288,6 +258,35 @@ Om de prestaties van de drie verschillende regressiemodellen te vergelijken voor
 
 <details><summary>Visualisatie werkelijke waarde vs RFR (snel recepten)</summary><img src="images/snel_recepten.png"></details>
 
+
+# Introduction of the subject field
+
+Het foodboost project past data science toe op eindgebruikers. In ons project gaat dit dan over gebruikers met dieetwensen, omdat wij ons project hebben toegepast op notenallergenen. Het is belangrijk om te weten welk recept noteningrediënten bevat en uit de dataset is gefilterd. Het kan anders heel makkelijk fataal gaan als iemand allergisch is voor noten. 
+
+Het containerproject past data science toe op logistiek transport. Het project is gebaseerd op het sorteren van containers in een kade en het effectief en efficiënt creëren van een lay-out om de tijd die nodig is om de containers te lossen te verminderen. Dit proces moet efficiënt verlopen, want anders kost dit het bedrijf veel geld.
+
+# Literature Research
+
+Ik heb de volgende bronnen gebruikt om kennis op te doen:
+
+- [Python](https://www.datacamp.com/)
+- [Linear Programming](https://www.youtube.com/watch?v=0TD9EQcheZM)
+- [Linear Programming](https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf)
+- [Reinforcement Learning](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=5659s)
+- [Reinforcement Learning](https://www.youtube.com/watch?v=JgvyzIkgxF0&t=816s)
+
+# Explanataion of Terminology, Jargon and Definitions
+
+In het project zijn er enkele termen en jargon die misschien uitgelegd moeten worden:
+
+- Reinforcement learning: is een gebied van machine learning dat zich bezighoudt met de vraag hoe intelligente agenten acties in een omgeving moeten ondernemen om de notie van cumulatieve beloning te maximaliseren. Versterkingsleren is een van de drie basisparadigma's voor machinaal leren, naast leren onder toezicht en leren zonder toezicht.
+- Lineaire programmering: is een speciaal geval van wiskundige programmering. Het wordt ook wel wiskundige optimalisatie genoemd.
+- Lay-out: de locatie waar de containers staan.
+- Decision Tree: wordt gebruikt voor zowel classificatie- als regressietaken.
+- falsePositives-lijst: een lijst van ingredienten die het woord noot bevatten, maar eigenlijk zit er geen noot in. bijvoorbeeld nootmuskaat
+- Scrum: is een agile kader voor projectbeheer dat teams helpt hun werk te structureren en te beheren door middel van een reeks waarden, beginselen en werkwijzen.
+
+# Data Preprocessing Foodboost
 
 **Data Preperation**
 
