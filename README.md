@@ -258,6 +258,7 @@ Om de prestaties van de drie verschillende regressiemodellen te vergelijken voor
 
 <details><summary>Visualisatie werkelijke waarde vs RFR (snel recepten)</summary><img src="images/snel_recepten.png"></details>
 
+[Notebook voorspelling gezond](notebooks/sefa_final.ipynb)
 
 # Introduction of the subject field
 
