@@ -248,6 +248,47 @@ In het project zijn er enkele termen en jargon die misschien uitgelegd moeten wo
 
 # Data Preprocessing Foodboost
 
+Voor mijn herkansing wilde ik graag een voorspelling doen of een recept gezond of ongezond is. Hiervoor heb ik wat data preperation gedaan om de tabel te krijgen die ik wil, maar in de datasets bevindt er geen kenmerk (kolom/rij etc..) waarbij te herkennen is of een recept gezond is. Dus heb ik ervoor gekozen om een eigen formule te maken.
+
+Hier bereken ik de gezonde_score voor elk recept in een dataframe genaamd recepten. De score bereken ik met behulp van verschillende criteria met betrekking tot de voedingswaarde van het recept, zoals de hoeveelheid eiwitten, vetten, koolhydraten, vezels, natrium en suikers.
+
+De gezonde_score bereken ik door aan de initiële score van 1 punten toe te voegen als het recept voldoet aan de verschillende criteria. Elk criterium draagt een 1 of 2 punten bij. Het totale aantal punten is de gezonde_score voor het recept.
+
+De nutritions kolommen gebruik ik als features (X) om de gezonde score te voorspellen. De kolom gezonde_score gebruik ik als de target variabele (y).
+
+Ik heb mijn model getraind zodat hij de gezonde_score kan voorspellen op basis van de voedingswaarde van het recept, met als doel om gezonde recepten te kunnen onderscheiden van minder gezonde recepten.
+
+<details><summary>Formule gezond_score</summary><img src="images/formule_gezondscore.png"></details>
+
+In deze code splitst ik mijn data op in trainings-, validatie- en testsets met behulp van de train_test_split. De data word zo opgesplitst dat 20% wordt gebruikt voor testen, en de resterende 80% wordt verder opgesplitst in een trainings- en validatieset, waarbij 25% van de 80% wordt gebruikt voor validatie en de resterende 75% voor training.
+
+Vervolgens gebruik ik drie regressiemodellen, namelijk RandomForestRegressor, LinearRegression en RidgeRegression, om de doelvariabele y te voorspellen op basis van de inputkenmerken X. Voor elk model pas ik het model toe op de trainingsset, voorspel ik op de testset en bereken ik de mean squared error tussen de voorspelde en de werkelijke waarde van y met behulp van de mean_squared_error.
+
+<details><summary>Training en testing</summary><img src="images/train_en_test.png"></details>
+
+Model keuze = RandomForest
+
+Uit de resultaten van de drie modellen blijkt dat de MSE van het RandomForestRegressor-model lager is dan de MSE van het Lineaire regressiemodel en van de Ridge. Dit betekent dat het RandomForestRegressor-model beter presteert in het voorspellen van de gezonde score van de recepten dan het Lineaire regressiemodel en de Ridge. Het LinearRegression en Ridge zijn bijna hetzelfde, dit klopt omdat Ridge regession een extensie is van LinearRegression. Daarom is het logisch om verder te gaan met het RandomForestRegressor-model in plaats van het Lineaire regressiemodel of Ridge.
+
+Daarna maak ik een DataFrame genaamd resultframe met de werkelijke y-waarden, de voorspelde waarden van elk van de drie modellen, het recept dat bij elke voorspelling hoort en de tags die bij elk recept horen. Ten slotte voeg ik het resultframe DataFrame samen met een ander DataFrame tags_together op de receptkolom, en sla ik het resulterende DataFrame op in resultframe.
+
+<details><summary>Model performances</summary><img src="images/MSE_scores.png></details>
+
+Hier tune ik de hyperparameters van de RandomForestRegressor met behulp van GridSearchCV. Ik heb een dictionary aangemaakt met de verschillende waarden die getest zullen worden voor de parameters 'n_estimators', 'max_depth', 'min_samples_split' en 'min_samples_leaf'. Ik gebruik GridSearchCV om de beste hyperparameters te vinden door de parameter grid te doorlopen met 5-fold cross-validation en het negatieve gemiddelde van de mean squared error te gebruiken als score. Ten slotte worden de beste gevonden hyperparameters en de beste MSE geprint. Deze hyperparameters gebruik ik dan bij mijn RandomForest model.
+
+<details><summary>Hyperparameter tuning RandomForestRegressor</summary><img src="images/tuning_RFG.png"></details>
+
+Om de prestaties van de drie verschillende regressiemodellen te vergelijken voor de voorspelling van de gezonde scores van recepten heb ik dit gevisualiseerd.
+
+<details><summary>Boxplot - RFR vs LR vs Ridge</summary><img src="images/boxplot_regressiemodellen.png"></details>
+
+<details><summary>Score per keuken</summary><img src="images/score_per_keuken.png"></details>
+
+<details><summary>Visualisatie werkelijke waarde vs RFR</summary><img src="images/actueel_vs_RFR.png"></details>
+
+<details><summary>Visualisatie werkelijke waarde vs RFR (snel recepten)</summary><img src="images/snel_recepten.png"></details>
+
+
 **Data Preperation**
 
 Eerst hebben we alleen de dataset geïmporteerd met alleen de recepten zonder noten en lunch & diner (dit is al gedaan in stap 1: filtering systeem, noten & maaltijden).
