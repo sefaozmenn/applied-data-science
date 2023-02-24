@@ -222,6 +222,8 @@ Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselin
 
 Voor mijn herkansing wilde ik graag een voorspelling doen of een recept gezond of ongezond is. Hiervoor heb ik wat data preperation gedaan om de tabel te krijgen die ik wil, maar in de datasets bevindt er geen kenmerk (kolom/rij etc..) waarbij te herkennen is of een recept gezond is. Dus heb ik ervoor gekozen om een eigen formule te maken.
 
+<details><summary>Formule gezond_score</summary><img src="images/formule_gezondscore.png"></details>
+
 Hier bereken ik de gezonde_score voor elk recept in een dataframe genaamd recepten. De score bereken ik met behulp van verschillende criteria met betrekking tot de voedingswaarde van het recept, zoals de hoeveelheid eiwitten, vetten, koolhydraten, vezels, natrium en suikers.
 
 De gezonde_score bereken ik door aan de initiële score van 1 punten toe te voegen als het recept voldoet aan de verschillende criteria. Elk criterium draagt een 1 of 2 punten bij. Het totale aantal punten is de gezonde_score voor het recept.
@@ -230,13 +232,11 @@ De nutritions kolommen gebruik ik als features (X) om de gezonde score te voorsp
 
 Ik heb mijn model getraind zodat hij de gezonde_score kan voorspellen op basis van de voedingswaarde van het recept, met als doel om gezonde recepten te kunnen onderscheiden van minder gezonde recepten.
 
-<details><summary>Formule gezond_score</summary><img src="images/formule_gezondscore.png"></details>
+<details><summary>Training en testing</summary><img src="images/train_en_test.png"></details>
 
 In deze code splitst ik mijn data op in trainings-, validatie- en testsets met behulp van de train_test_split. De data word zo opgesplitst dat 20% wordt gebruikt voor testen, en de resterende 80% wordt verder opgesplitst in een trainings- en validatieset, waarbij 25% van de 80% wordt gebruikt voor validatie en de resterende 75% voor training.
 
 Vervolgens gebruik ik drie regressiemodellen, namelijk RandomForestRegressor, LinearRegression en RidgeRegression, om de doelvariabele y te voorspellen op basis van de inputkenmerken X. Voor elk model pas ik het model toe op de trainingsset, voorspel ik op de testset en bereken ik de mean squared error tussen de voorspelde en de werkelijke waarde van y met behulp van de mean_squared_error.
-
-<details><summary>Training en testing</summary><img src="images/train_en_test.png"></details>
 
 <details><summary>MSE uitkomsten</summary><img src="images/MSE_scores.png"></details>
 
