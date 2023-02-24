@@ -246,9 +246,9 @@ Uit de resultaten van de drie modellen blijkt dat de MSE van het RandomForestReg
 
 Daarna maak ik een DataFrame genaamd resultframe met de werkelijke y-waarden, de voorspelde waarden van elk van de drie modellen, het recept dat bij elke voorspelling hoort en de tags die bij elk recept horen. Ten slotte voeg ik het resultframe DataFrame samen met een ander DataFrame tags_together op de receptkolom, en sla ik het resulterende DataFrame op in resultframe.
 
-Hier tune ik de hyperparameters van de RandomForestRegressor met behulp van GridSearchCV. Ik heb een dictionary aangemaakt met de verschillende waarden die getest zullen worden voor de parameters 'n_estimators', 'max_depth', 'min_samples_split' en 'min_samples_leaf'. Ik gebruik GridSearchCV om de beste hyperparameters te vinden door de parameter grid te doorlopen met 5-fold cross-validation en het negatieve gemiddelde van de mean squared error te gebruiken als score. Ten slotte worden de beste gevonden hyperparameters en de beste MSE geprint. Deze hyperparameters gebruik ik dan bij mijn RandomForest model.
-
 <details><summary>Hyperparameter tuning RandomForestRegressor</summary><img src="images/tuning_RFG.png"></details>
+
+Hier tune ik de hyperparameters van de RandomForestRegressor met behulp van GridSearchCV. Ik heb een dictionary aangemaakt met de verschillende waarden die getest zullen worden voor de parameters 'n_estimators', 'max_depth', 'min_samples_split' en 'min_samples_leaf'. Ik gebruik GridSearchCV om de beste hyperparameters te vinden door de parameter grid te doorlopen met 5-fold cross-validation en het negatieve gemiddelde van de mean squared error te gebruiken als score. Ten slotte worden de beste gevonden hyperparameters en de beste MSE geprint. Deze hyperparameters gebruik ik dan bij mijn RandomForest model.
 
 Om de prestaties van de drie verschillende regressiemodellen te vergelijken voor de voorspelling van de gezonde scores van recepten heb ik dit gevisualiseerd.
 
