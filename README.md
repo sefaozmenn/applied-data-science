@@ -260,7 +260,7 @@ De eerste visualisatie toont de gemiddelde score per tag. Hieruit kan ik afleide
 
 <details><summary>Score per keuken</summary><img src="images/score_per_keuken.png"></details>
 
-Voor de tweede visualisatie heb ik een histogram gemaakt voor alle recepten in mijn dataset. Hierbij heb ik de voorspelling van de Random Forest Regressor meegenomen, zodat we kunnen zien hoe goed deze voorspellingen zijn voor dit type recepten.
+Voor de tweede visualisatie heb ik een histogram gemaakt voor alle recepten in mijn dataset. Hierbij heb ik de voorspelling van de Random Forest Regressor meegenomen, zodat je ziet hoe goed deze voorspellingen zijn.
 
 <details><summary>Visualisatie werkelijke waarde vs RFR</summary><img src="images/actueel_vs_RFR.png"></details>
 
