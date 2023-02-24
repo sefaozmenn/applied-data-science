@@ -230,7 +230,7 @@ De gezonde_score bereken ik door aan de initiële score van 1 punten toe te voeg
 
 De nutritions kolommen gebruik ik als features (X) om de gezonde score te voorspellen. De kolom gezonde_score gebruik ik als de target variabele (y).
 
-Ik heb mijn model getraind zodat hij de gezonde_score kan voorspellen op basis van de voedingswaarde van het recept, met als doel om gezonde recepten te kunnen onderscheiden van minder gezonde recepten.
+Mijn doel is om gezonde recepten te kunnen onderscheiden van minder gezonde recepten. Dus heb ik mijn model getraind zodat hij de gezonde_score kan voorspellen op basis van de voedingswaarde van het recept.
 
 <details><summary>Training en testing</summary><img src="images/train_en_test.png"></details>
 
