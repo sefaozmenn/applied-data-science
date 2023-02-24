@@ -218,6 +218,8 @@ Ik heb een reinforcement learning model gemaakt met DQN en PPO en stable-baselin
 
 # Foodboost project
 
+[Notebook voorspelling gezond](notebooks/sefa_final.ipynb)
+
 Voor mijn herkansing wilde ik graag een voorspelling doen of een recept gezond of ongezond is. Hiervoor heb ik wat data preperation gedaan om de tabel te krijgen die ik wil, maar in de datasets bevindt er geen kenmerk (kolom/rij etc..) waarbij te herkennen is of een recept gezond is. Dus heb ik ervoor gekozen om een eigen formule te maken.
 
 Hier bereken ik de gezonde_score voor elk recept in een dataframe genaamd recepten. De score bereken ik met behulp van verschillende criteria met betrekking tot de voedingswaarde van het recept, zoals de hoeveelheid eiwitten, vetten, koolhydraten, vezels, natrium en suikers.
@@ -252,11 +254,21 @@ Om de prestaties van de drie verschillende regressiemodellen te vergelijken voor
 
 <details><summary>Boxplot - RFR vs LR vs Ridge</summary><img src="images/boxplot_regressiemodellen.png"></details>
 
+Ik vind het belangrijk om niet alleen inzicht te hebben in de data, maar ook om deze inzichten op een visuele manier te kunnen delen. Daarom heb ik verschillende visualisaties gemaakt om meer inzicht te geven in de gezonde scores van de recepten.
+
+De eerste visualisatie toont de gemiddelde score per tag. Hieruit kan ik afleiden welke tags het meest gezonde recepten bevatten en welke minder gezonde recepten bevatten. Zo kan ik zien welke tags ik kan gebruiken om de dataset te filteren als ik op zoek ben naar gezonde recepten.
+
 <details><summary>Score per keuken</summary><img src="images/score_per_keuken.png"></details>
+
+Voor de tweede visualisatie heb ik een histogram gemaakt voor alle recepten in mijn dataset. Hierbij heb ik de voorspelling van de Random Forest Regressor meegenomen, zodat we kunnen zien hoe goed deze voorspellingen zijn voor dit type recepten.
 
 <details><summary>Visualisatie werkelijke waarde vs RFR</summary><img src="images/actueel_vs_RFR.png"></details>
 
+Tot slot heb ik een vergelijkbaar histogram gemaakt voor alle recepten in mijn dataset. Hierbij heb ik heb ik me gericht op de recepten met de tag “snel”.
+
 <details><summary>Visualisatie werkelijke waarde vs RFR (snel recepten)</summary><img src="images/snel_recepten.png"></details>
+
+Door deze visualisaties te maken, heb ik meer inzicht gekregen in mijn dataset. Dit kan mij helpen bij het nemen van beslissingen over welke tags ik in de toekomst kan gebruiken om mijn dataset te filteren en hoe ik mijn model kan verbeteren om betere voorspellingen te doen voor verschillende soorten recepten.
 
 [Notebook voorspelling gezond](notebooks/sefa_final.ipynb)
 
